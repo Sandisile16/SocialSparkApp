@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:padding="20dp">
 
-    <!-- Title of the app -->
+    <!-- App title at the top -->
     <TextView
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
@@ -16,7 +16,7 @@
         android:textStyle="bold"
         android:layout_marginBottom="20dp"/>
 
-    <!-- User input for time of day -->
+    <!-- Input field where the user types time of day -->
     <EditText
         android:id="@+id/timeInput"
         android:layout_width="match_parent"
@@ -24,14 +24,14 @@
         android:hint="Please Enter Time Of Day"
         android:layout_marginBottom="20dp"/>
 
-    <!-- Button to get suggestion -->
+    <!-- Button to generate a social suggestion -->
     <Button
         android:id="@+id/sparkButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Get The Social Spark"/>
 
-    <!-- Reset button -->
+    <!-- Button to reset input and suggestion -->
     <Button
         android:id="@+id/resetButton"
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
         android:text="RESET"
         android:layout_marginTop="10dp"/>
 
-    <!-- Where suggestion will display -->
+    <!-- TextView to display the social suggestion -->
     <TextView
         android:id="@+id/resultText"
         android:layout_width="wrap_content"
